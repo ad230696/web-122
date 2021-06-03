@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Manrop-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Manrope-Medium");
+  src-url: "../fonts/Manrope-Medium.ttf";
+}
+
+@font-face {
+  font-family: "Manrop-ExtroBold";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Manrope-ExtroBold");
+  src-url: "../fonts/Manrope-Extro-Bold.ttf";
+}
