@@ -1,0 +1,141 @@
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  position: relative;
+  font-family: Open Sans, sans-serif;
+}
+
+.header {
+  background: linear-gradient(to left, #FCEAE8 40%, transparent 0);
+}
+
+.header-flax {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 90px;
+}
+
+.header-logo__img {
+  margin-right: 140px;
+}
+
+.header-nav {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.header-nav__element {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: #303032;
+  margin-right: 60px;
+}
+
+.header-block__search {
+  margin-right: 22px;
+}
+
+.main {
+  background: linear-gradient(to left, #FCEAE8 40%, transparent 0);
+  margin-top: -18px;
+}
+
+.main-slider__item-flax {
+  display: flex;
+}
+
+.main-slider__title {
+  font-weight: bold;
+  font-size: 57px;
+  line-height: 145%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #303032;
+  margin: 0;
+  margin-top: 125px;
+}
+
+.main-slider__subtitle {
+  font-size: 20px;
+  line-height: 27px;
+  color: #303032;
+  margin: 0;
+  margin-top: 35px;
+}
+
+.main-slider__text {
+  font-size: 20px;
+  line-height: 27px;
+  color: #303032;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.current {
+  font-size: 30px;
+  line-height: 41px;
+  color: #303032;
+}
+
+.main-slider__button {
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #303032;
+  border: none;
+  padding: 18px 82px;
+  cursor: pointer;
+  margin: 0;
+  margin-top: 35px;
+}
+
+.main-slider__button:hover {
+  background: #171718;
+}
+
+.main-slider__button:focus {
+  background: black;
+}
+
+.main-slider__img {
+  margin: 105px 130px 0px 0;
+}
+
+.slick-track {
+  display: flex;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-dots {
+  list-style: none;
+  position: absolute;
+  top: 40%;
+  right: 0;
+}
+
+.slick-dots button {
+  border: 0;
+  background: 0;
+  margin: 20px 0;
+  font-size: 20px;
+  line-height: 145%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.slick-dots .slick-active button {
+  font-size: 40px;
+  line-height: 145%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+}
