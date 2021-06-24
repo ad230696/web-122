@@ -1,0 +1,49 @@
+.flex-news
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: flex-end
+    margin-top: 140px
+
+.news-column
+
+    &__title
+        font-family: Playfair Display
+        font-weight: bold
+        font-size: 28px
+        line-height: 37px
+        letter-spacing: 0.05em
+        color: #303032
+
+        &::after
+            content: ''
+            width: 90px
+            height: 4px
+            display: block
+            background: #303032
+            margin-top: 6px
+            margin-bottom: 115px
+    
+    &__img
+        display: block
+        margin: 0 auto
+        margin-top: 20px
+
+    &__subtitle
+        font-size: 20px
+        line-height: 27px
+        color: #303032
+        text-align: center
+
+    &__price
+        font-weight: 600
+        font-size: 28px
+        line-height: 38px
+        color: #303032
+        text-align: center
+        margin-top: 7px
+
+    &__item
+
+        &:hover
+            background-color: #FCEAE8

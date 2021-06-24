@@ -1,0 +1,113 @@
+.flex-chance
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    
+.chance
+    background: linear-gradient( to right, #FAECE9 55%,
+    #fff  0 )
+    padding-top: 73px
+    margin-top: 150px
+
+    &__title
+        font-family: Playfair Display
+        font-weight: bold
+        font-size: 28px
+        line-height: 37px
+        letter-spacing: 0.05em
+        color: #303032
+        margin-bottom: 48px
+
+        &::after
+            content: ''
+            display: block
+            width: 90px
+            height: 4px
+            background-color: #303032
+            margin-top: 7px
+
+    &-nav__button
+        font-weight: 600
+        font-size: 16px
+        line-height: 25px
+        color: #000000
+        background: transparent
+        border: none
+        padding: 0
+        margin-right: 48px
+        margin-bottom: 25px
+        cursor: pointer
+
+        &:focus
+            text-decoration: underline
+
+    &-items
+        background-color: #fff
+        padding: 31px 15px 0 23px
+        position: relative
+        margin: 20px 0
+
+        &__title
+            font-size: 16px
+            line-height: 22px
+            color: #000000
+            margin-bottom: 4px
+
+        &__price
+            font-weight: 600
+            font-size: 28px
+            line-height: 38px
+            color: #303032
+
+            &_disable
+                font-weight: 600
+                font-size: 16px
+                line-height: 22px
+                text-decoration-line: line-through
+                color: #979798
+
+        &__img
+            margin-right: -15px
+
+    &-overlay  
+        position: absolute
+        left: 0
+        top: 0
+        height: 100%
+        width: 100%
+        opacity: 0
+
+        &::before
+            content: ''
+            width: 100%
+            height: 5px
+            display: block
+            position: absolute
+            background: #303032
+            top: 0
+
+        &__button
+     
+            padding: 16px 0
+            width: 100%
+            font-size: 16px
+            line-height: 22px
+            text-align: center
+            letter-spacing: 0.13em
+            text-transform: uppercase
+            color: #FFFFFF
+            background: #303032
+            border: none
+            cursor: pointer
+            position: absolute
+            bottom: -35px
+            
+            &:hover
+                background: darken(#303032, 10%)
+
+            &:focus
+                background: darken(#303032, 20%)
+
+        &:hover
+            opacity: 1    
+            box-shadow: 0 20px 85px -30px     

@@ -1,0 +1,101 @@
+.main
+    margin-top: -20px
+    background: linear-gradient( to left, #FCEAE8 40%, #fff 0)
+    padding-top: 87px
+    padding-bottom: 65px
+
+.main-sliders 
+
+    &__slider
+        display: flex
+        justify-content: space-between
+
+    &__title
+        font-family: Playfair Displ
+        font-weight: bold
+        font-size: 57px
+        line-height: 145%
+        letter-spacing: 0.05em
+        text-transform: uppercase
+        color: #303032
+        margin-bottom: 35px
+        margin-top: 85px
+
+    &__subtitle
+        font-size: 20px
+        line-height: 27px
+        color: #303032
+        margin-bottom: 10px
+
+    &__price
+        font-size: 20px
+        line-height: 27px
+        color: #303032
+        margin-bottom: 38px
+
+        &_black
+            font-weight: 600
+            font-size: 30px
+            line-height: 41px
+            color: #303032
+
+    &__button
+        font-size: 16px
+        line-height: 22px
+        letter-spacing: 0.13em
+        text-transform: uppercase
+        color: #FFFFFF
+        background: #303032
+        border: none
+        padding: 18px 81px
+        cursor: pointer
+
+        &:hover
+            background-color: darken(#303032, 10%)
+
+        &:focus
+            background-color: darken(#303032, 20%) 
+
+    &__img
+        margin-right: 95px     
+
+    & .slick-dots
+        max-height: 205px
+        display: flex
+        flex-direction: column
+        align-items: flex-end
+        position: absolute
+        bottom: 20%
+        width: 45px
+        right: 0
+        
+        & li 
+            display: flex
+            align-items: center
+            justify-content: flex-end
+            margin: 0
+            width: 41px
+            height: 58px
+
+            span
+                font-family: Playfair Display
+                font-size: 20px
+                line-height: 145%
+                letter-spacing: 0.05em
+                color: rgba(0, 0, 0, 0.3)
+                
+
+            &.slick-active span
+                font-size: 40px 
+                line-height: 58px
+                color: #000000
+                position: relative
+
+                &::after
+                    content: ''
+                    box-sizing: border-box
+                    width: 2px
+                    height: 54px
+                    background-color: #000000
+                    position: absolute
+                    right: -10px

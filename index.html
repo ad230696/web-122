@@ -6,93 +6,333 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    <link rel="stylesheet" href="fonts/fonts.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="slick/css/slick.css">
+    <link rel="stylesheet" href="slick/css/slick-theme.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
-       <div class="container">
-            <div class="header-flax">
-                <div class="header-logo">
-                    <a href="" class="header-logo__img"><img src="img/header/logo.svg" alt=""></a>
-                    <div class="header-nav">
-                        <a class="header-nav__element" href="">мебель</a>
-                        <a class="header-nav__element" href="">освещение</a>
-                        <a class="header-nav__element" href="">текстиль</a>
-                    </div>
+    
+    <header class="header"> 
+        <div class="container">
+            <div class="flex-header">
+
+                <div class="header-nav">
+                    <a href="" class="header-nav__logo"><img src="img/header/logo.svg" alt=""></a>
+                    <a href="" class="header-nav__element ">Мебель</a>
+                    <a href="" class="header-nav__element ">Освещение</a>
+                    <a href="" class="header-nav__element ">Текстиль</a>
                 </div>
+
                 <div class="header-block">
-                    <a class="header-block__search" href=""><img src="img/header/search.svg" alt=""></a>
-                    <a href=""><img src="img/header/basket.svg" alt=""></a>
+                    <button class="header-block__button"><img src="img/header/search.svg" alt=""></button>
+                    <button class="header-block__button"><img src="img/header/basket.svg" alt=""></button>
                 </div>
+
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li><a href="#" class="header__link">Мебель</a></li>
+                        <li><a href="#" class="header__link">Освещение</a></li>
+                        <li><a href="#" class="header__link">Текстиль</a></li>
+                    </ul>
+                </nav>
+                   
+                </div>
+
+                
             </div>
-       </div>
+        </div>
     </header>
 
     <main class="main">
         <div class="container">
-            <div class="main-slider">
-                <div class="main-slider__item-flax">
-                    <div class="main-slider__left">
-                        <h3 class="main-slider__title">Дизайнерская мебель</h3>
-                        <p class="main-slider__subtitle">Кресло "Антиква"</p>
-                        <p class="main-slider__text">$380 <span class="current">$240</span></p>
-                        <button class="main-slider__button">купить</button>
+
+            <div class="main-sliders">
+
+                <div class="main-sliders__slider">
+                    <div class="main-sliders__text">
+                        <h2 class="main-sliders__title">Дизайнерская мебель</h2>
+                        <p class="main-sliders__subtitle">Кресло “Антиква”</p>
+                        <p class="main-sliders__price">$380 <span class="main-sliders__price_black">$240</span></p>
+                        <button class="main-sliders__button">купить</button>
                     </div>
-                    <div class="main-slider__right">
-                        <img src="img/main/armchain.png" alt="" class="main-slider__img">
-                    </div>
-                </div>
-                <div class="main-slider__item-flax">
-                    <div class="main-slider__left">
-                        <h3 class="main-slider__title">Дизайнерская мебель</h3>
-                        <p class="main-slider__subtitle">Кресло "Антиква"</p>
-                        <p class="main-slider__text">$380 <span class="current">$240</span></p>
-                        <button class="main-slider__button">купить</button>
-                    </div>
-                    <div class="main-slider__right">
-                        <img src="img/main/armchain.png" alt="" class="main-slider__img">
+    
+                    <div class="main-sliders__img">
+                        <img src="img/main/armchain.png" alt="">
                     </div>
                 </div>
-                <div class="main-slider__item-flax">
-                    <div class="main-slider__left">
-                        <h3 class="main-slider__title">Дизайнерская мебель</h3>
-                        <p class="main-slider__subtitle">Кресло "Антиква"</p>
-                        <p class="main-slider__text">$380 <span class="current">$240</span></p>
-                        <button class="main-slider__button">купить</button>
+
+                <div class="main-sliders__slider">
+                    <div class="main-sliders__text">
+                        <h2 class="main-sliders__title">Дизайнерская мебель</h2>
+                        <p class="main-sliders__subtitle">Кресло “Антиква”</p>
+                        <p class="main-sliders__price">$380 <span class="main-sliders__price_black">$240</span></p>
+                        <button class="main-sliders__button">купить</button>
                     </div>
-                    <div class="main-slider__right">
-                        <img src="img/main/armchain.png" alt="" class="main-slider__img">
-                    </div>
-                </div>
-                <div class="main-slider__item-flax">
-                    <div class="main-slider__left">
-                        <h3 class="main-slider__title">Дизайнерская мебель</h3>
-                        <p class="main-slider__subtitle">Кресло "Антиква"</p>
-                        <p class="main-slider__text">$380 <span class="current">$240</span></p>
-                        <button class="main-slider__button">купить</button>
-                    </div>
-                    <div class="main-slider__right">
-                        <img src="img/main/armchain.png" alt="" class="main-slider__img">
+    
+                    <div class="main-sliders__img">
+                        <img src="img/main/armchain.png" alt="">
                     </div>
                 </div>
+
+                <div class="main-sliders__slider">
+                    <div class="main-sliders__text">
+                        <h2 class="main-sliders__title">Дизайнерская мебель</h2>
+                        <p class="main-sliders__subtitle">Кресло “Антиква”</p>
+                        <p class="main-sliders__price">$380 <span class="main-sliders__price_black">$240</span></p>
+                        <button class="main-sliders__button">купить</button>
+                    </div>
+    
+                    <div class="main-sliders__img">
+                        <img src="img/main/armchain.png" alt="">
+                    </div>
+                </div>
+
+                <div class="main-sliders__slider">
+                    <div class="main-sliders__text">
+                        <h2 class="main-sliders__title">Дизайнерская мебель</h2>
+                        <p class="main-sliders__subtitle">Кресло “Антиква”</p>
+                        <p class="main-sliders__price">$380 <span class="main-sliders__price_black">$240</span></p>
+                        <button class="main-sliders__button">купить</button>
+                    </div>
+    
+                    <div class="main-sliders__img">
+                        <img src="img/main/armchain.png" alt="">
+                    </div>
+                </div>
+
             </div>
+           
+
         </div>
     </main>
 
+    <section class="news">
+        <div class="container">
+            <div class="flex-news">
+
+                <div class="news-column">
+
+                    <h2 class="news-column__title">новинки</h2>
+
+                    <div class="news-column__item">
+                        <img src="img/news/1.png" alt="chandelier" class="news-column__img">
+                        <p class="news-column__subtitle">Люстра «Облако»</p>
+                        <p class="news-column__price">$250</p>
+                    </div>
+                </div>
+
+                <div class="news-column">
+
+                    <div class="news-column__item">
+                        <img src="img/news/2.png" alt="chair" class="news-column__img">
+                        <p class="news-column__subtitle">Стул «Смеркается»</p>
+                        <p class="news-column__price">$280</p>
+                    </div>
+
+                    <div class="news-column__item">
+                        <img src="img/news/3.png" alt="table" class="news-column__img">
+                        <p class="news-column__subtitle">Стол «Крем брюле»</p>
+                        <p class="news-column__price">$320</p>
+                    </div>
+
+                </div>
+
+                <div class="news-column">
+
+                    <div class="news-column__item">
+                        <img src="img/news/4.png" alt="
+                        chair" class="news-column__img">
+                        <p class="news-column__subtitle">Стул офисный «Белый шоколад»</p>
+                        <p class="news-column__price">$120</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="comments">
+        <div class="container">
+
+            <div class="comments-slider">
+               <div class="comments-slider__contant">
+                    <img src="img/comments/avatar.png"  alt="" class="comments-slider__img">
+                    <h3 class="comments-slider__name">Елена     Новикова</h3>
+                    <p  class="comments-slider__status">Студенка </p>
+                    <p class="comments-slider__text">«Хочу  поделиться своими впечатлениями по   использованию дивана «Бродвей», 
+                        заказывала в конце 2016 года.   Держится великолепно. Спасибо,    большое сотрудникам этого чудесного    магазина.»</p>
+                </div>
+
+                <div class="comments-slider__contant">
+                    <img src="img/comments/avatar.png"  alt="" class="comments-slider__img">
+                    <h3 class="comments-slider__name">Елена     Новикова</h3>
+                    <p  class="comments-slider__status">Студенка </p>
+                    <p class="comments-slider__text">«Хочу  поделиться своими впечатлениями по   использованию дивана «Бродвей», 
+                        заказывала в конце 2016 года.   Держится великолепно. Спасибо,    большое сотрудникам этого чудесного    магазина.»</p>
+                </div>
+
+                <div class="comments-slider__contant">
+                    <img src="img/comments/avatar.png"  alt="" class="comments-slider__img">
+                    <h3 class="comments-slider__name">Елена     Новикова</h3>
+                    <p  class="comments-slider__status">Студенка </p>
+                    <p class="comments-slider__text">«Хочу  поделиться своими впечатлениями по   использованию дивана «Бродвей», 
+                        заказывала в конце 2016 года.   Держится великолепно. Спасибо,    большое сотрудникам этого чудесного    магазина.»</p>
+                </div>
+
+                <div class="comments-slider__contant">
+                    <img src="img/comments/avatar.png"  alt="" class="comments-slider__img">
+                    <h3 class="comments-slider__name">Елена     Новикова</h3>
+                    <p  class="comments-slider__status">Студенка </p>
+                    <p class="comments-slider__text">«Хочу  поделиться своими впечатлениями по   использованию дивана «Бродвей», 
+                        заказывала в конце 2016 года.   Держится великолепно. Спасибо,    большое сотрудникам этого чудесного    магазина.»</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="chance">
+        <div class="container">
+
+            <h2 class="chance__title">Последний шанс</h2>
+
+            <div class="chance-nav">
+                <button class="chance-nav__button">Стулья</button>
+                <button class="chance-nav__button">Диваны</button>
+                <button class="chance-nav__button">Кресла</button>
+            </div>
+
+            <div class="flex-chance">
+                <div class="chance-items">
+                    <h3 class="chance-items__title">Стул «Карамель»</h3>
+                    <p class="chance-items__price">$195 <span class="chance-items__price_disable">$245</span></p>
+                    <img src="img/chance/chance1.jpg" alt="" class="chance-items__img">
+
+                    <div class="chance-overlay">
+                        <button class="chance-overlay__button">Купить</button>
+                    </div>
+                </div>
+
+                <div class="chance-items">
+                    <h3 class="chance-items__title">Стул «Облако»</h3>
+                    <p class="chance-items__price">$200 <span class="chance-items__price_disable">$250</span></p>
+                    <img src="img/chance/chance2.jpg" alt="" class="chance-items__img">
+
+                    <div class="chance-overlay">
+                        <button class="chance-overlay__button">Купить</button>
+                    </div>
+                </div>
+
+                <div class="chance-items">
+                    <h3 class="chance-items__title">Стул «Сова»</h3>
+                    <p class="chance-items__price">$240 <span class="chance-items__price_disable">$260</span></p>
+                    <img src="img/chance/chance3.jpg" alt="" class="chance-items__img">
+
+                    <div class="chance-overlay">
+                        <button class="chance-overlay__button">Купить</button>
+                    </div>
+                </div>
+
+                <div class="chance-items">
+                    <h3 class="chance-items__title">Стул «Мая»</h3>
+                    <p class="chance-items__price">$280 <span class="chance-items__price_disable">$330</span></p>
+                    <img src="img/chance/chance4.jpg" alt="" class="chance-items__img">
+
+                    <div class="chance-overlay">
+                        <button class="chance-overlay__button">Купить</button>
+                    </div>
+                </div>
+
+                <div class="chance-items">
+                    <h3 class="chance-items__title">Стул «Месси»</h3>
+                    <p class="chance-items__price">$280 <span class="chance-items__price_disable">$305</span></p>
+                    <img src="img/chance/chance5.jpg" alt="" class="chance-items__img">
+
+                    <div class="chance-overlay">
+                        <button class="chance-overlay__button">Купить</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-flex">
+
+                <div class="footer-left">
+                    <a href="" class="footer-left__logo">
+                        <img src="img/footer/footer-logo.png" alt="" class="footer-left__img">
+                    </a>
+
+                    <div class="footer-left__content">
+                        <div class="footer-left__phone">
+                            <img src="img/footer/footer-phone.svg" alt="">
+                            <p class="footer-left__number">+7(495) 205-28-14</p>
+                       </div>
+
+                        <div class="footer-left__mail">
+                            <img src="img/footer/footer-mail.png" alt="">
+                            <p class="footer-left__address">callium@gmail.com</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="footer-right">
+                    <h3 class="footer-right__title">Доставка</h3>
+                    <h3 class="footer-right__title">Оплата</h3>
+                    <h3 class="footer-right__title">Контакты</h3>
+                    <h3 class="footer-right__title">Гарантии</h3>
+                </div>
+
+            </div>
+
+            <div class="footer__line">
+                
+            </div>
+            <p class="footer__text">© 2018 «Callium» — Сайт по продаже дизайнерской мебели. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="js/menu_burg/jquery-3.4.1.js"></script> 
     <script src="slick/js/jquery.min.js"></script>
     <script src="slick/js/slick.min.js"></script>
 
-    <script>
+    <script type="text/javascript">
         $(document).ready(function(){
-            $('.main-slider').slick({
-                dots: true,
-                arrows: false,
+            $('.main-sliders').slick({
+               dots: true,
+               arrows: false,
+               customPaging: (slider, i) => `<span>0${i+1}</span>`
             });
         });
     </script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.comments-slider').slick({
+               dots: true,
+               arrows: true
+            });
+        });
+    </script>
+
+    <script> type="text/javascript">
+        $(document).ready(function() {
+	        $('.header__burger').click(function(event) {
+		        $('.header__burger,.header__menu').toggleClass('active'); 
+		        $('body').toggleClass('lock');
+	});
+});
+    </script>    
+
 
 </body>
 </html>

@@ -1,0 +1,85 @@
+.comments-slider
+    margin: 102px 0
+    position: relative
+
+    &__img
+        display: block
+        margin: 0 auto
+
+    &__name
+        font-weight: bold
+        font-size: 18px
+        line-height: 154.36%
+        margin-top: 25px
+
+    &__status
+        font-size: 16px
+        line-height: 154.36%
+        margin-top: 8px
+
+    &__text
+        font-style: italic
+        font-size: 16px
+        line-height: 154.36%
+        margin-top: 20px
+        padding: 0 222px
+
+    text-align: center
+    color: #444348
+
+    &__contant
+        display: flex
+        flex-direction: column
+
+    & .slick-arrow
+        position: absolute
+        top: 50%
+        font-size: 0
+        width: 36px
+        height: 36px
+        border-radius: 50%
+        border: none
+        background-color: #fff
+        color: #BDBDBD
+        box-shadow: 0 0 7px 1px
+        z-index: 1
+        margin-top: -18px
+    & .slick-prev
+        left: 150px
+        background-image: url('../img/comments/arrow-left.svg') 
+        background-position: center
+        cursor: pointer
+        
+        &::before
+            content: ''
+        
+    & .slick-next
+        right: 150px
+        background-image: url('../img/comments/arrow-right.svg') 
+        background-position: center
+        margin-top: 0
+
+        &::before
+            content: ''
+
+
+    & .slick-dots
+        bottom: -50px
+
+        & li
+            list-style: none
+            color: #B3B3B3
+            
+
+            &.slick-active button
+                background-color: #B3B3B3
+
+        & button
+            width: 8px
+            height: 8px
+            background-color: transparent
+            border: 2px solid #B3B3B3
+            border-radius: 50%
+
+            &::before
+                content: ''

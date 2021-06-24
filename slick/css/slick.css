@@ -88,7 +88,7 @@
 }
 .slick-slide img
 {
-    display: block;
+    display: flex;
 }
 .slick-slide.slick-loading img
 {
@@ -100,7 +100,7 @@
 }
 .slick-initialized .slick-slide
 {
-    display: block;
+    display: flex;
 }
 .slick-loading .slick-slide
 {

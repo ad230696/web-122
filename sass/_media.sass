@@ -1,0 +1,285 @@
+@media screen and ( max-width: 1024px )
+    .container
+        width: 100%
+
+    .header-nav__logo
+        margin-left: 5px
+
+    .main-sliders
+
+        &__text
+            margin-left: 5px
+
+        &__title
+            font-size: 48px
+
+    .news-column__title
+        margin-left: 5px
+
+    .chance
+        &__title
+
+        &-nav
+
+        margin-left: 5px
+
+    .footer-flex
+        justify-content: space-around
+
+@media screen and ( max-width: 768px )
+    .flex-header
+        padding-top: 40px    
+
+    .main
+
+        margin: 0
+        padding: 0
+        &-sliders
+
+            &__title 
+                font-size: 26px
+
+            &__subtitle 
+                font-size: 16px
+
+            &__price 
+                font-size: 14px
+
+            &__price_black
+                font-size: 22px
+
+            &__button
+                padding: 12px 50px
+
+            &__img img
+                width: 440px
+
+            & .slick-dots
+                right: 15px
+
+    .flex-news
+        justify-content: space-around
+
+    .flex-chance
+        justify-content: space-evenly
+
+    .footer
+        
+        &-left
+
+            &__logo
+
+                margin-left: 10px
+
+            &__phone
+                margin-left: 50px
+                margin-bottom: 10px
+
+        &-right__title
+            margin-left: 45px
+
+@media screen and ( max-width: 425px )   
+    .flex-header
+        padding-top: 15px
+        padding-bottom: 10px
+
+    .header
+        background: #fff
+        position: fixed
+        width: 100%
+        top: 0
+        left: 0
+        z-index: 50
+
+        &-nav__element
+            display: none
+
+
+        &__burger
+            display: block
+            position: relative
+            width: 30px
+            height: 20px
+            z-index: 2
+
+            &.active
+
+                &::before
+                    transform: rotate(45deg)
+                    top: 9px
+                    background-color: #fff
+
+                &::after
+                    transform: rotate(-45deg)
+                    bottom: 9px
+                    background-color: #fff
+
+                & span
+                    transform: scale(0)
+
+            &::before
+                content: ''
+                background-color: #000
+                position: absolute
+                width: 100%
+                height: 2px
+                top: 0
+                right: 23px
+                transition: all 0.3s ease 0s
+
+
+            &::after
+                content: ''
+                background-color: #000
+                position: absolute
+                width: 100%
+                height: 2px
+                bottom: 0
+                right: 23px
+                transition: all 0.3s ease 0s
+
+            & span
+                background-color: #000
+                position: absolute
+                width: 100%
+                height: 2px
+                top: 9px
+                right: 23px
+
+        &__menu
+            display: block
+            position: fixed
+            top: -100%
+            left: 0
+            width: 100%
+            height: 100%
+            background-color: #303033
+            transition: all 0.3s ease 0s
+
+            &.active
+                top: 0
+
+
+        &__nav
+            display: block
+
+        &__list
+            list-style: none
+            text-align: center
+            margin-top: 110px
+            
+
+            & li
+                margin-bottom: 60px
+
+                & a
+                    text-decoration: none
+                    color: #fff
+                
+
+
+    .main
+        padding-top: 100px
+        
+        &-sliders
+
+            & .slick-dots
+                flex-direction: row
+                left: 20%
+                bottom: -80px
+
+                & li
+                    margin-right: 40px
+
+            &__slider
+                flex-wrap: wrap 
+
+            &__text
+                order: 1
+
+            &__title 
+                font-size: 40px
+                margin-top: 0
+
+            &__button
+                padding: 20px 170px
+
+            &__img img
+                width: 400px
+                order: 2
+
+    .news-column
+
+        &__title
+
+            margin-left: -50px
+
+        &__img
+            width: 100%
+    
+    .comments
+        display: none
+
+    .chance
+        
+
+    .footer
+
+        &-flex
+            flex-wrap: wrap
+            justify-content: flex-start
+            flex-direction: column
+
+        &-left
+
+            margin-bottom: 40px
+
+            &__logo
+                margin-left: 10px
+            
+            &__content
+                flex-direction: column
+
+            &__phone
+                margin-left: 15px
+
+            &__mail
+                margin-left: 15px
+
+        &-right
+            width: 300px
+            flex-wrap: wrap
+
+            &__title
+                margin-left: 
+
+@media screen and ( max-width: 375px )
+    .header-block__button
+        margin: 0
+        
+
+    .main-sliders__button
+        padding: 20px 145px
+
+@media screen and ( max-width: 325px )   
+    .main-sliders
+
+        &__img img
+            width: 340px
+
+        &__title
+            font-size: 30px
+            margin-bottom: 10px
+
+        &__subtitle
+            margin: 0
+
+        &__price
+            margin-bottom: 20px
+
+        &__button
+            padding: 20px 120px
+
+        & .slick-dots
+            left: 10%
+            
